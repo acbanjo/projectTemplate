@@ -1,10 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lan="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><!-- insert title here --></title>
+    <!-- bootstrap -->
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+    />
+    <!-- font awsome icons -->
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+            integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+            crossorigin="anonymous"
+    />
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.css" />
 </head>
+
 <body>
-hello my name is chris!
+<!-- Title -->
+<div id="heading" class="text-center p-4">
+    <h1>Home Of The New York Jets</h1>
+    <img src="img/jetsLogo.png" />
+</div>
+<!-- title ends -->
+
+<!-- navigation -->
+<!-- this is a bootstrap nav class:active makes the buttons
+     have a border and padding, mx-3 gives a margin between
+the buttons in the x-axis   -->
+<ul id="nav" class="nav justify-content-center">
+    <li class="">
+        <a class="nav-link mx-3" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link mx-3" href="#">Roster</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link mx-3" href="#">Schedule</a>
+    </li>
+    <li class="">
+        <a class="nav-link mx-3" href="#">News</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link mx-3" href="#">Tickets</a>
+    </li>
+    <form class="form-inline">
+        <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+        </button>
+    </form>
+</ul>
+<!-- navigation ends -->
+
+<!-- picture section -->
+<div id="imageSec" class="container-fluid mt-4 p-4">
+    <div class="row">
+        <div class="col-6">
+            <img src="img/jets1.jpeg" class="img-responsive" />
+        </div>
+        <div class="col-6">
+            <img src="img/jets2.jpeg" class="img-responsive" />
+        </div>
+    </div>
+</div>
+<!-- picture section ends -->
+
+<!-- social media -->
+<div id="socialMed" class="container-fluid">
+    <div class="row text-left">
+        <div class="col-12 pt-4">
+            <h4>Follow Us On Social Media</h4>
+        </div>
+        <div class="col-2 mt-3">
+            <i class="fab fa-2x fa-facebook-square"></i>
+        </div>
+        <div class="col-2 mt-3">
+            <i class="fab fa-2x fa-twitter-square"></i>
+        </div>
+        <div class="col-2 mt-3">
+            <i class="fab fa-2x fa-snapchat-square"></i>
+        </div>
+        <div class="col-2 mt-3">
+            <i class="fab fa-2x fa-instagram"></i>
+        </div>
+        <div class="col-2 mt-3">
+            <i class="fab fa-2x fa-youtube-square"></i>
+        </div>
+        <div class="col-12 pt-4">
+            <h5>
+                To Learn More Click
+                <a href="https://github.com/acbanjo" target="_blank">Here</a>
+            </h5>
+        </div>
+    </div>
+</div>
+<!-- social media ends -->
+
+<!-- Scripts -->
+<!-- jquery uncompressed-->
+<script
+        src="http://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"
+></script>
+<!-- bootstrap scripts -->
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"
+></script>
 </body>
 </html>
