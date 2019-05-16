@@ -1,0 +1,49 @@
+/*cascading style sheets*/
+body {
+}
+/* heading */
+#heading h1 {
+    color: #0f583f;
+}
+#heading img {
+    width: 50px;
+    height: auto;
+}
+
+/* nav bar */
+ul li a {
+    color: #0f583f;
+}
+
+/* images */
+#imageSec {
+    background-color: #0f583f;
+}
+#imageSec img {
+    width: 99%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+/* social */
+#socialMed {
+    background-color: black;
+    height: 200px;
+}
+#socialMed h4 {
+    color: white;
+    text-align: left;
+}
+
+.fab {
+    color: #0f583f;
+}
+#socialMed h5 {
+    color: white;
+}
+
+#socialMed h5 a {
+    text-decoration: none;
+}
